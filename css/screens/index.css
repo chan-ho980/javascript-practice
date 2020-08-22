@@ -2,7 +2,28 @@
 .greetings {
   display: none;
 }
-
 .showing {
   display: block;
+}
+.js-clock h1 {
+  font-size: 130px;
+  margin: 20px;
+}
+.js-greetings {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.js-toDoList {
+  width: 350px;
+  height: 200px;
+  margin: 10px 0px 20px 0px;
+  font-size: 20px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+.js-weather {
+  font-size: x-large;
 }
